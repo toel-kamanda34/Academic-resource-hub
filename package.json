@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "parcel build index.html"
   },
   "keywords": ["academic", "resources", "file upload", "voting"],
   "author": "Toel Okemwa",
@@ -17,5 +18,8 @@
     "uuid": "^10.0.0",
     "fs": "0.0.1-security",
     "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^2.3.3"
   }
 }
