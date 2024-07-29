@@ -1,19 +1,21 @@
 {
   "name": "academic-resource-hub",
   "version": "1.0.0",
-  "description": "",
+  "description": "A hub for academic resources with file upload and voting functionality.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["academic", "resources", "file upload", "voting"],
+  "author": "Toel Okemwa",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "multer": "^1.4.5-lts.1",
-    "uuid": "^10.0.0"
+    "uuid": "^10.0.0",
+    "fs": "0.0.1-security",
+    "body-parser": "^1.19.0"
   }
 }
