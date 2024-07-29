@@ -1,0 +1,19 @@
+{
+  "resources": [
+    {
+      "id": "f5904c74-c690-48f6-bcbd-8005941e72d3",
+      "name": "pastExams",
+      "description": "introduction to engineering",
+      "department": "civil",
+      "course": "ce101",
+      "files": [
+        {
+          "filename": "CIVIL ENGG PAPER-1.pdf",
+          "path": "/uploads/7579905aa8b2065467eb267e33ba52db"
+        }
+      ],
+      "upvotes": 1,
+      "downvotes": 0
+    }
+  ]
+}
