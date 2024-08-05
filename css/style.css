@@ -4,7 +4,9 @@ header {
     background-color: #f0f0f0;
     padding: 10px;
     text-align: center;
+    
   }
+  
   
   header img {
     position: absolute;
@@ -13,6 +15,7 @@ header {
     margin: 0;
     width: 120px;
     height: 120px; 
+    
   }
 :root {
     --primary-color: #006400;
@@ -72,8 +75,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--gold-color);
+    border-bottom: #ddd solid 2px;
+    color: #FFD700;
 }
+
+
 
 main {
     padding: 2rem 0;
@@ -199,7 +205,7 @@ footer {
     color: var(--secondary-color);
     text-align: center;
     padding: 1rem;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
@@ -230,14 +236,19 @@ footer {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     nav ul {
         display: flex;
-        flex-direction: column;
-    }
+        flex-direction: row;
+        justify-content: center;
+        box-sizing: border-box;
 
-    nav ul li {
-        margin-bottom: 0.5rem;
+    }
+    header div{
+        margin-left: 20%;
+    }
+    header{
+        height: fit-content;
     }
 
     .grid-view {
@@ -248,6 +259,16 @@ footer {
     form select,
     form textarea {
         width: 100%;
+    }
+}
+@media (max-width: 550px){
+    header img{
+        display: none;
+    }
+    header h1{
+        display: flex;
+        justify-content: center;
+        margin-right: 15px;
     }
 }
 .success {
